@@ -1,23 +1,15 @@
-import React from 'react';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import { Container, Header, HeaderText, Body } from './App.styles';
+  
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header>
+        <HeaderText>Here</HeaderText>
+      </Header>
+      <Body>Body</Body>
+    </Container>
   );
 }
 
