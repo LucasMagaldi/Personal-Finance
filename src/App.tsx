@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Header, HeaderText, Body } from './App.styles';
+
+import InputArea from './components/InputArea/InputArea';
   
 
 function App() {
@@ -8,7 +10,9 @@ function App() {
       <Header>
         <HeaderText>Here</HeaderText>
       </Header>
-      <Body>Body</Body>
+      <Body>
+        <InputArea/>
+      </Body>
     </Container>
   );
 }
